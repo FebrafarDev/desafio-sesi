@@ -2,7 +2,7 @@
 
 ## 📋 Descrição do Projeto
 
-Este projeto é um desafio dividido em **2 etapas principais** que consiste no desenvolvimento de um sistema web para auxiliar lojistas (farmacêuticos) na escolha do layout da loja e visualização de planogramas por categoria de produtos.
+Este projeto é um desafio dividido em **2 etapas principais** que consiste no desenvolvimento de um sistema web para auxiliar lojistas (farmacêuticos) na escolha do tamanho da área de vendas da loja e visualização de planogramas por categoria de produtos.
 
 ## 👥 Composição dos Grupos
 
@@ -34,7 +34,7 @@ Este projeto é um desafio dividido em **2 etapas principais** que consiste no d
 ## 🏪 ETAPA 1 - Escolha da Planta e Definição de Categorias
 
 ### Objetivo
-Permitir que o lojista escolha o tamanho da sua loja e visualize a distribuição dos universos e categorias.
+Permitir que o lojista escolha o tamanho da área de vendas da sua loja e visualize a distribuição dos universos e categorias.
 
 ### Requisitos Básicos
 
@@ -82,12 +82,12 @@ Ao selecionar uma categoria, o sistema deve:
 > **O que é um Planograma?**  
 > É um esquema visual ou desenho técnico que mostra como e onde os produtos devem ser expostos em prateleiras, gôndolas ou expositores dentro de um ponto de venda, como supermercados, farmácias ou lojas de departamento.
 
-*Nota: As imagens dos planogramas por categoria serão adicionadas posteriormente na pasta `/planogramas`*
+*Nota: Os planogramas por categoria estão na pasta `/planogramas`*
 
 #### 3. Exportação de Dados
-- **Funcionalidade:** Exportar lista de produtos do planograma selecionado
-- **Formato:** Excel (.xlsx)
-- **Conteúdo:** Lista completa dos produtos com suas respectivas informações
+- **Funcionalidade:** Exportar planograma selecionado
+- **Formato:** Pasta compactada (.zip)
+- **Conteúdo:** Uma ou mais listas de produtos com suas respectivas informações
 
 ### Funcionalidades Adicionais (Diferenciais)
 
@@ -102,9 +102,8 @@ Ao selecionar uma categoria, o sistema deve:
 
 - **Frontend:** Sveltekit, Tailwindcss
 - **Backend:** Node.js
+- **Hospedagem (opcional):** Vercel, Firebase
 - **3D (opcional):** Three.js, Babylon.js, A-Frame
-- **Exportação:** Bibliotecas como ExcelJS, Apache POI, etc.
-- **Banco de Dados:** MySQL, PostgreSQL, MongoDB, ou similar
 
 ## 📁 Estrutura de Arquivos
 
@@ -117,8 +116,11 @@ Ao selecionar uma categoria, o sistema deve:
 │   ├── loja_p_universos.png # Universos da loja pequena
 │   ├── loja_m_universos.png # Universos da loja média
 │   └── loja_g_universos.png # Universos da loja grande
-├── planogramas/             # Planogramas por categoria (a ser populado)
-└── README.md               # Este arquivo
+├── planogramas/             # Planogramas por categoria, separado por tamanhos de loja
+│   ├── loja_p/              # Planogramas da loja pequena por categoria
+│   ├── loja_m/              # Planogramas da loja média por categoria
+│   └── loja_g/              # Planogramas da loja grande por categoria
+└── README.md                # Este arquivo
 ```
 
 ## 🎯 Critérios de Avaliação
@@ -161,15 +163,6 @@ Ao selecionar uma categoria, o sistema deve:
 - Bronzeador
 - Repelente
 
-#### 💄 **Perfumaria 1**
-- Maquiagem*
-- Acessório de maquiagem
-- Pente/escova
-- Fixador de cabelo
-- Acessório para cabelo*
-- Manteiga de cacau
-- Perfume/colônia*
-
 #### 💅 **Perfumaria 2**
 - Alicate
 - Acessório para unha
@@ -187,38 +180,12 @@ Ao selecionar uma categoria, o sistema deve:
 - Tintura
 - Produtos de tratamento para cabelo em geral
 
-#### 👁️ **Cuidado com os Olhos**
-- Colírio e lágrima artificial
-- Cuidado com a lente de contato
-- Solução para lente de contato
-
-#### 🩺 **Outros (Cuidado Complementar)**
-- Antitabagismo*
-- Cuidado com o ouvido
-
-#### 🌸 **Higiene e Saúde Íntima Feminina**
-- Cuidado ginecológico e urinário
-- Absorvente
-- Lenço umedecido
-- Sabonete íntimo
-
 #### 🧴 **Desodorante**
 - Feminino e masculino
 - Roll-on
 - Aerosol
 - Creme
 - Bastão
-
-#### 🏥 **Cuidado ao Paciente**
-- **Primeiros socorros:** Assepsia, Curativo e adesivo, Esparadrapo e bandagem, Gaze, atadura, algodão e utensílios, Soro fisiológico
-- **Contusão:** Produto de uso tópico em spray, gel, adesivo e outros
-- **Tratamento de pele:** Antifúngico, Cicatrização e queimadura
-- **Produtos ortopédicos*:** Meia, joelheira, munhequeira
-
-#### 👴 **Cuidado Adulto**
-- Roupa íntima adulta
-- Fralda geriátrica
-- Aparelho de aferição*
 
 #### 💑 **Saúde Sexual**
 - Preservativo
@@ -239,12 +206,6 @@ Ao selecionar uma categoria, o sistema deve:
 - Fio dental
 - Fixador de prótese dentária
 - Higienizador de prótese dentária
-
-#### 🛁 **Higiene Geral**
-- Sabonete em barra
-- Sabonete líquido
-- Óleo corporal
-- Acessório para banho*
 
 #### 💪 **Nutrição Adulta**
 - Complemento alimentar
@@ -274,10 +235,6 @@ Ao selecionar uma categoria, o sistema deve:
 - Sistema digestivo
 - Vitaminas e minerais
 
-#### 👶 **Fraldas Infantis**
-- Todos os tamanhos e segmentos
-- Elástico e fecho
-
 #### 🥛 **Nutrição Infantil**
 - Fórmula
 - Snack
@@ -286,11 +243,6 @@ Ao selecionar uma categoria, o sistema deve:
 #### 🛒 **Alimentos e Geladeira**
 - **Checkout:** Chocolate, Bala e chiclete, Barra de cereal
 - **Geladeira:** Refrigerante, Água, Água de coco, Isotônico, Whey Protein, Suplemento líquido
-
-#### 🎯 **Área Promocional**
-- Cestão
-- Ponta de gôndola
-- Display de balcão
 
 ---
 
@@ -450,15 +402,6 @@ Ao selecionar uma categoria, o sistema deve:
 - Bronzeador
 - Repelente
 
-#### 💄 **Perfumaria 1**
-- Maquiagem*
-- Acessório de maquiagem*
-- Pente/escova
-- Fixador de cabelo
-- Acessório para cabelo*
-- Manteiga de cacau
-- Perfume/colônia*
-
 #### 💇 **Cabelo e Tintura**
 - Shampoo
 - Condicionador
@@ -466,12 +409,6 @@ Ao selecionar uma categoria, o sistema deve:
 - Óleo finalizador
 - Tintura
 - Produtos de tratamento para cabelo em geral
-
-#### 🌸 **Higiene e Saúde Íntima Feminina**
-- Cuidado ginecológico e urinário
-- Absorvente (interno e externo)
-- Lenço umedecido
-- Sabonete íntimo
 
 #### 💅 **Perfumaria 2**
 - Alicate
@@ -507,35 +444,11 @@ Ao selecionar uma categoria, o sistema deve:
 - Lubrificante
 - Gel
 
-#### 🛁 **Higiene Geral**
-- Sabonete em barra
-- Sabonete líquido
-- Óleo corporal
-- Acessório para banho*
-
-#### 🏥 **Cuidado ao Paciente**
-- **Primeiro socorro:** Assepsia, Curativo e adesivo, Esparadrapo e bandagem, Gaze, atadura, algodão e utensílios, Soro fisiológico
-- **Contusão:** Produto de uso tópico em spray, gel, adesivo e outros
-- **Tratamento de pele:** Antifúngico, Cicatrização e queimadura
-- **Produtos ortopédicos*:** Meia, joelheira, munhequeira
-
 #### 👨 **Cuidado Masculino**
 - Shampoo masculino
 - Creme para barbear e Lâmina de barbear
 - Gel capilar
 - Talco para os pés
-
-#### 🥗 **Saudabilidade**
-- Barra de proteína
-- Adoçante, mel, chá, snack saudável
-
-#### 👁️ **Cuidado Complementar**
-- **Cuidado com os olhos:** Colírio e lágrima artificial, Cuidado com a lente de contato, Solução para lente de contato
-- **Outros:** Antitabagismo*, Cuidado com o ouvido, Aparelho de aferição*
-
-#### 👴 **Cuidado Adulto**
-- Roupa íntima adulta (elástico e fecho)
-- Fralda geriátrica
 
 #### 💪 **Nutrição Adulta**
 - Complemento alimentar
@@ -557,11 +470,6 @@ Ao selecionar uma categoria, o sistema deve:
 - Chupeta
 - Acessório para amamentação
 
-#### 🍽️ **Puericultura Pesada***
-- Prato
-- Talher
-- Babador
-
 #### 💊 **MIP (Medicamentos Isentos de Prescrição)**
 - Dor e febre, gripe e alergia, sistema digestivo, vitaminas e minerais
 
@@ -570,18 +478,9 @@ Ao selecionar uma categoria, o sistema deve:
 - **Troca:** Lenço umedecido, talco
 - **Cuidado com recém-nascido**
 
-#### 👶 **Fralda Infantil**
-- Todos os tamanhos e segmentos
-- Elástico e fecho
-
 #### 🛒 **Alimentos e Geladeira**
 - **Em frente ao balcão:** Chocolate, Bala e chiclete, Barra de cereal
 - **Geladeira*:** Refrigerante, Água, Água de coco, Isotônico, Whey Protein, Suplemento líquido
-
-#### 🎯 **Área Promocional**
-- Cestão
-- Ponta de gôndola
-- Display de balcão
 
 ---
 
