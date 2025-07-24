@@ -16,6 +16,19 @@ Este projeto é um desafio dividido em **2 etapas principais** que consiste no d
 - **Tecnologia:** Livre escolha do grupo
 - **Requisito:** Ambas as etapas devem estar implementadas na entrega final
 
+### 🎤 Apresentação do Sistema
+
+#### **Requisitos da Apresentação:**
+- **Sistema Funcional:** Demonstração do sistema em funcionamento completo
+- **Justificativa Técnica:** Explicação das tecnologias utilizadas e motivações das escolhas
+- **Demonstração Prática:** Apresentação ao vivo do sistema funcionando
+
+#### **Critérios de Avaliação da Apresentação:**
+- **⚡ Desempenho:** Velocidade e responsividade do sistema
+- **🧭 Qualidade do Fluxo de Navegação:** Intuitividade e facilidade de uso
+- **🎨 Qualidade da Interface:** Design, usabilidade e experiência do usuário
+- **⚙️ Complexidade de Desenvolvimento:** Sofisticação técnica e funcionalidades implementadas
+
 ---
 
 ## 🏪 ETAPA 1 - Escolha da Planta e Definição de Categorias
