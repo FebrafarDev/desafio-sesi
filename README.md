@@ -100,8 +100,8 @@ Ao selecionar uma categoria, o sistema deve:
 
 ## 🛠️ Tecnologias Sugeridas
 
-- **Frontend:** React, Vue.js, Angular, ou tecnologia de escolha
-- **Backend:** Node.js, Python (Django/Flask), PHP, Java, ou similar
+- **Frontend:** Sveltekit, Tailwindcss
+- **Backend:** Node.js
 - **3D (opcional):** Three.js, Babylon.js, A-Frame
 - **Exportação:** Bibliotecas como ExcelJS, Apache POI, etc.
 - **Banco de Dados:** MySQL, PostgreSQL, MongoDB, ou similar
