@@ -150,99 +150,32 @@ Ao selecionar uma categoria, o sistema deve:
 
 ### 🏪 Farmácia P (até 60m²)
 
-#### 🎨 **Dermocosméticos e Cosméticos**
-- Limpeza
-- Tratamento
-- Fotoproteção facial
-- Hidratação
-- Nutricosmético
+#### Universo Beleza
+- 🎨 Dermocosméticos e Cosméticos
+- ☀️ Proteção Corporal
+- 💅 Perfumaria 2
+- 💇 Cabelos e Tinturas
 
-#### ☀️ **Proteção Corporal**
-- Protetor solar corporal
-- Pós-sol
-- Bronzeador
-- Repelente
+#### Universo Higiene
+- 🧴 Desodorante
+- 💑 Saúde Sexual
+- 👨 Cuidado Masculino
+- 🦷 Higiene Oral
 
-#### 💅 **Perfumaria 2**
-- Alicate
-- Acessório para unha
-- Acetona
-- Esmalte
-- Algodão
-- Depilação
-- Descolorante
+#### Universo Alimentos Nutricionais e Suplementos
+- 💪 Nutrição Adulta
+- 🌱 Vida Saudável
 
-#### 💇 **Cabelos e Tinturas**
-- Shampoo
-- Condicionador
-- Máscara de tratamento
-- Óleo finalizador
-- Tintura
-- Produtos de tratamento para cabelo em geral
+#### Universo Saúde
+- 💊 MIP (Medicamentos Isentos de Prescrição)
 
-#### 🧴 **Desodorante**
-- Feminino e masculino
-- Roll-on
-- Aerosol
-- Creme
-- Bastão
+#### Universo Infantil
+- 🍼 Puericultura Leve
+- 👶 Banho e Troca
+- 🥛 Nutrição Infantil
 
-#### 💑 **Saúde Sexual**
-- Preservativo
-- Lubrificante
-- Gel
-
-#### 👨 **Cuidado Masculino**
-- Shampoo masculino
-- Creme para barbear
-- Lâmina de barbear
-- Gel capilar
-- Talco para os pés
-
-#### 🦷 **Higiene Oral**
-- Creme dental
-- Enxaguante bucal
-- Escova dental
-- Fio dental
-- Fixador de prótese dentária
-- Higienizador de prótese dentária
-
-#### 💪 **Nutrição Adulta**
-- Complemento alimentar
-- Suplemento alimentar
-- Fórmula especial adulta
-
-#### 🌱 **Vida Saudável**
-- Vitaminas D+ e cálcio
-- Colágeno
-- Passiflora e melatonina
-- Ômega 3
-- Nutrição sênior
-
-#### 🍼 **Puericultura Leve**
-- Mamadeira
-- Chupeta
-- Acessório para amamentação
-
-#### 👶 **Banho e Troca**
-- Higiene infantil
-- Troca (lenço umedecido, talco)
-- Cuidado com recém-nascido
-
-#### 💊 **MIP (Medicamentos Isentos de Prescrição)**
-- Dor e febre
-- Gripe e alergia
-- Sistema digestivo
-- Vitaminas e minerais
-
-#### 🥛 **Nutrição Infantil**
-- Fórmula
-- Snack
-- Composto lácteo, etc.
-
-#### 🛒 **Alimentos e Geladeira**
-- **Checkout:** Chocolate, Bala e chiclete, Barra de cereal
-- **Geladeira:** Refrigerante, Água, Água de coco, Isotônico, Whey Protein, Suplemento líquido
+#### Checkout
+- 🛒 Alimentos e Geladeira
 
 ---
 
@@ -389,98 +322,33 @@ Ao selecionar uma categoria, o sistema deve:
 
 ### 🏪 Farmácia G (100m² a 120m²)
 
-#### 🎨 **Dermocosmético e Cosmético**
-- Limpeza
-- Tratamento
-- Fotoproteção facial
-- Hidratação
-- Nutricosmético
+#### Universo Beleza
+- 🎨 Dermocosmético e Cosmético
+- ☀️ Proteção Corporal
+- 💇 Cabelo e Tintura
+- 💅 Perfumaria 2
 
-#### ☀️ **Proteção Corporal**
-- Protetor solar corporal
-- Pós-sol
-- Bronzeador
-- Repelente
+#### Universo Higiene
+- 🧴 Desodorante Feminino
+- 🧴 Desodorante Masculino
+- 🦷 Higiene Oral
+- 💑 Saúde Sexual
+- 👨 Cuidado Masculino
 
-#### 💇 **Cabelo e Tintura**
-- Shampoo
-- Condicionador
-- Máscaras de tratamento
-- Óleo finalizador
-- Tintura
-- Produtos de tratamento para cabelo em geral
+#### Universo Alimentos Nutricionais e Suplementos
+- 💪 Nutrição Adulta
+- 🌱 Vida Saudável
 
-#### 💅 **Perfumaria 2**
-- Alicate
-- Acessório para unha
-- Acetona
-- Esmalte
-- Algodão
-- Depilação
-- Descolorante
+#### Universo Saúde
+- 💊 MIP (Medicamentos Isentos de Prescrição)
 
-#### 🧴 **Desodorante Feminino**
-- Roll-on
-- Aerosol
-- Creme
-- Bastão
+#### Universo Infantil
+- 🥛 Nutrição Infantil
+- 🍼 Puericultura Leve
+- 👶 Banho e Troca
 
-#### 🧴 **Desodorante Masculino**
-- Roll-on
-- Aerosol
-- Creme
-- Bastão
-
-#### 🦷 **Higiene Oral**
-- Creme dental
-- Enxaguante bucal
-- Escova dental
-- Fio dental
-- Fixador de prótese dentária
-- Higienizador de prótese dentária
-
-#### 💑 **Saúde Sexual**
-- Preservativo
-- Lubrificante
-- Gel
-
-#### 👨 **Cuidado Masculino**
-- Shampoo masculino
-- Creme para barbear e Lâmina de barbear
-- Gel capilar
-- Talco para os pés
-
-#### 💪 **Nutrição Adulta**
-- Complemento alimentar
-- Suplemento alimentar
-- Fórmula especial adulta
-
-#### 🌱 **Vida Saudável**
-- Vitaminas D+ e cálcio
-- Colágeno
-- Passiflora e melatonina
-- Ômega 3
-- Nutrição sênior
-
-#### 🥛 **Nutrição Infantil**
-- Fórmula, snack, composto lácteo, etc.
-
-#### 🍼 **Puericultura Leve**
-- Mamadeira
-- Chupeta
-- Acessório para amamentação
-
-#### 💊 **MIP (Medicamentos Isentos de Prescrição)**
-- Dor e febre, gripe e alergia, sistema digestivo, vitaminas e minerais
-
-#### 👶 **Banho e Troca**
-- **Higiene infantil:** Shampoo, condicionador, sabonete, pós-banho
-- **Troca:** Lenço umedecido, talco
-- **Cuidado com recém-nascido**
-
-#### 🛒 **Alimentos e Geladeira**
-- **Em frente ao balcão:** Chocolate, Bala e chiclete, Barra de cereal
-- **Geladeira*:** Refrigerante, Água, Água de coco, Isotônico, Whey Protein, Suplemento líquido
+#### Checkout
+- 🛒 Alimentos e Geladeira
 
 ---
 
