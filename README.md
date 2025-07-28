@@ -1,4 +1,4 @@
-# Desafio SESI - Sistema de Layout e Planograma para Farmácias
+# Desafio - Sistema de Layout e Planograma para Farmácias
 
 ## 📋 Descrição do Projeto
 
