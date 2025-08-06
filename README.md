@@ -181,142 +181,32 @@ Ao selecionar uma categoria, o sistema deve:
 
 ### 🏪 Farmácia M (75m² a 99m²)
 
-#### 🎨 **Dermocosmético e Cosmético**
-- Limpeza
-- Tratamento
-- Fotoproteção facial
-- Hidratação
-- Nutricosmético
+#### Universo Beleza
+- 🎨 Dermocosméticos e Cosméticos
+- ☀️ Proteção Corporal
+- 💅 Perfumaria 2
+- 💇 Cabelos e Tinturas
 
-#### 💄 **Perfumaria 1**
-- Maquiagem*
-- Acessório de maquiagem*
-- Pente/escova
-- Fixador de cabelo
-- Acessório para cabelo*
-- Manteiga de cacau
-- Perfume/colônia*
+#### Universo Higiene
+- 🧴 Desodorante
+- 💑 Saúde Sexual
+- 👨 Cuidado Masculino
+- 🦷 Higiene Oral
 
-#### 💇 **Cabelo e Tintura**
-- Shampoo
-- Condicionador
-- Máscara de tratamento
-- Óleo finalizador
-- Tintura
-- Produtos de tratamento para cabelo em geral
+#### Universo Alimentos Nutricionais e Suplementos
+- 💪 Nutrição Adulta
+- 🌱 Vida Saudável
 
-#### ☀️ **Proteção Corporal**
-- Protetor solar corporal
-- Pós-sol
-- Bronzeador
-- Repelente
+#### Universo Saúde
+- 💊 MIP (Medicamentos Isentos de Prescrição)
 
-#### 💅 **Perfumaria 2**
-- Alicate
-- Acessório para unha
-- Acetona
-- Esmalte
-- Algodão
-- Depilação
-- Descolorante
+#### Universo Infantil
+- 🍼 Puericultura Leve
+- 👶 Banho e Troca
+- 🥛 Nutrição Infantil
 
-#### 🦷 **Higiene Oral**
-- Creme dental
-- Enxaguante bucal
-- Escova dental
-- Fio dental
-- Fixador de prótese dentária
-- Higienizador de prótese dentária
-
-#### 👁️ **Cuidado Complementar**
-- **Cuidado com os olhos:** Colírio e lágrima artificial, Cuidado com a lente de contato, Solução para lente de contato
-- **Outros:** Antitabagismo*, Cuidado com o ouvido, Aparelho de aferição*
-
-#### 🌸 **Higiene e Saúde Íntima Feminina**
-- Cuidado ginecológico e urinário
-- Absorvente (interno e externo)
-- Lenço umedecido
-- Sabonete íntimo
-
-#### 👨 **Cuidado Masculino**
-- Shampoo masculino
-- Creme para barbear
-- Lâmina de barbear
-- Gel capilar
-- Talco para os pés
-
-#### 💑 **Saúde Sexual**
-- Preservativo
-- Lubrificante
-- Gel
-
-#### 🧴 **Desodorante**
-- Feminino e masculino
-- Roll-on
-- Aerosol
-- Creme
-- Bastão
-
-#### 🛁 **Higiene Geral**
-- Sabonete em barra
-- Sabonete líquido
-- Óleo corporal
-- Acessório para banho*
-
-#### 🏥 **Cuidado ao Paciente**
-- **Primeiros socorros:** Assepsia, Curativo e adesivo, Esparadrapo e bandagem, Gaze, atadura, algodão e utensílios, Soro fisiológico
-- **Contusão:** Produto de uso tópico
-- **Tratamento de pele:** Antifúngico, Cicatrização e queimadura
-- **Produtos ortopédicos*:** Meia, joelheira, munhequeira
-
-#### 🥛 **Nutrição Infantil**
-- Fórmula, snack, composto lácteo, etc.
-
-#### 🍼 **Puericultura Leve**
-- Mamadeira
-- Chupeta
-- Acessório para amamentação
-
-#### 👴 **Cuidado Adulto**
-- Roupa íntima adulta
-- Fralda geriátrica
-
-#### 🥗 **Saudabilidade**
-- Barra de proteína
-- Adoçante, mel, chá, snack saudável
-
-#### 💪 **Nutrição Adulta**
-- Complemento alimentar
-- Suplemento alimentar
-- Fórmula especial adulta
-
-#### 🌱 **Vida Saudável (Público 60+)**
-- Vitaminas D+ e cálcio
-- Colágeno
-- Passiflora e melatonina
-- Ômega 3
-- Nutrição senior
-
-#### 💊 **MIP (Medicamentos Isentos de Prescrição)**
-- Dor e febre, gripe e alergia, sistema digestivo, vitaminas e minerais
-
-#### 👶 **Banho e Troca**
-- Higiene infantil
-- Troca (lenços umedecidos, talco)
-- Cuidado com recém-nascido
-
-#### 👶 **Fraldas Infantis**
-- Todos os tamanhos e segmentos
-- Elástico e fecho
-
-#### 🛒 **Alimentos e Geladeira**
-- **Checkout:** Chocolate, Bala e chiclete, Barra de cereal
-- **Geladeira*:** Refrigerante, Água, Água de coco, Isotônico, Whey Protein, Suplemento líquido
-
-#### 🎯 **Área Promocional**
-- Cestão
-- Ponta de gôndola
-- Display de balcão
+#### Checkout
+- 🛒 Alimentos e Geladeira
 
 ---
 
