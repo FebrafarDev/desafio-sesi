@@ -98,13 +98,6 @@ Ao selecionar uma categoria, o sistema deve:
 
 ---
 
-## 🛠️ Tecnologias Sugeridas
-
-- **Frontend:** Sveltekit, Tailwindcss
-- **Backend:** Node.js
-- **Hospedagem (opcional):** Vercel, Firebase
-- **3D (opcional):** Three.js, Babylon.js, A-Frame
-
 ## 📁 Estrutura de Arquivos
 
 ```
