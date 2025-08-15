@@ -6,9 +6,8 @@ Este projeto é um desafio dividido em **2 etapas principais** que consiste no d
 
 ## 👥 Composição dos Grupos
 
-- **Mínimo:** 8 pessoas
-- **Máximo:** 10 pessoas
-- **Divisão:** Uma parte do time ficará responsável pela **Etapa 1** e outra parte pela **Etapa 2**
+- **Máximo:** 6 pessoas
+- **Divisão de funções:** A critério do grupo
 
 ## 🚀 Entrega
 
@@ -45,16 +44,16 @@ O sistema deve oferecer **3 opções de planta**:
 - **Loja M (Média)** - 75m² a 99m²  
 - **Loja G (Grande)** - 100m² a 120m²
 
-*Plantas de referência disponíveis em: `/images/loja_p.png`, `/images/loja_m.png`, `/images/loja_g.png`*
+*Plantas de referência disponíveis em: [`/images/loja_p.png`](./images/loja_p.png), [`/images/loja_m.png`](./images/loja_m.png), [`/images/loja_g.png`](./images/loja_g.png)*
 
 #### 2. Exibição dos Universos e Categorias
 Após a seleção da planta, o sistema deve:
 - Calcular automaticamente a distribuição dos universos
 - Exibir visualmente na planta os universos e categorias correspondentes
 - Utilizar como referência as distribuições mostradas em:
-  - `/images/loja_p_universos.png`
-  - `/images/loja_m_universos.png` 
-  - `/images/loja_g_universos.png`
+  - [`/images/loja_p_universos.png`](./images/loja_p_universos.png)
+  - [`/images/loja_m_universos.png`](./images/loja_m_universos.png) 
+  - [`/images/loja_g_universos.png`](./images/loja_g_universos.png)
 
 ### Funcionalidades Adicionais (Diferenciais)
 - **Customização da Planta:** Permitir que o lojista modifique a planta para adequá-la exatamente ao layout da sua loja
@@ -72,6 +71,7 @@ Permitir a seleção interativa de categorias e visualização dos respectivos p
 #### 1. Seleção Interativa de Categorias
 - Interface que permita ao lojista selecionar qualquer categoria dos universos definidos na Etapa 1
 - Navegação intuitiva entre as diferentes categorias
+- Tratativa de erros quando não houver conteúdo (pasta) de categorias mapeadas
 
 #### 2. Visualização de Planogramas
 Ao selecionar uma categoria, o sistema deve:
@@ -82,12 +82,11 @@ Ao selecionar uma categoria, o sistema deve:
 > **O que é um Planograma?**  
 > É um esquema visual ou desenho técnico que mostra como e onde os produtos devem ser expostos em prateleiras, gôndolas ou expositores dentro de um ponto de venda, como supermercados, farmácias ou lojas de departamento.
 
-*Nota: Os planogramas por categoria estão na pasta `/planogramas`*
+*Nota: Os planogramas por categoria estão na pasta [`/planogramas`](./planogramas/)*
 
 #### 3. Exportação de Dados
 - **Funcionalidade:** Exportar planograma selecionado
-- **Formato:** Pasta compactada (.zip)
-- **Conteúdo:** Uma ou mais listas de produtos com suas respectivas informações
+- **Formato:** Pasta compactada (.zip) contendo o planograma.pdf e a planilha.xlsx (quando presente)
 
 ### Funcionalidades Adicionais (Diferenciais)
 
@@ -129,7 +128,7 @@ Ao selecionar uma categoria, o sistema deve:
 
 ## 🚀 Como Começar
 
-1. **Formar o grupo** (8-10 pessoas)
+1. **Formar o grupo** (até 6 pessoas)
 2. **Dividir responsabilidades** entre Etapa 1 e Etapa 2
 3. **Escolher as tecnologias** que serão utilizadas
 4. **Analisar as imagens** de referência das plantas e universos
